@@ -1,0 +1,200 @@
+###############################################
+###############################################
+##### Restriction Card for the benchmarck scenario TZpZH  #########
+##### with only left-handed couplings                                     #########
+###############################################
+###############################################
+###################################
+## INFORMATION FOR KPBHL
+###################################
+Block kpbhl
+1 0. # kpBHL1 
+2 0. # kpBHL2 
+3 0. # kpBHL3 
+###################################
+## INFORMATION FOR KPBHPL
+###################################
+Block kpbhpl 
+1 0. # kpBHpL1 
+2 0. # kpBHpL2 
+3 0. # kpBHpL3 
+###################################
+## INFORMATION FOR KPBWL
+###################################
+Block kpbwl
+1 0. # kpBWL1 
+2 0. # kpBWL2 
+3 0. # kpBWL3 
+###################################
+## INFORMATION FOR KPBWPL
+###################################
+Block kpbwpl 
+1 0. # kpBWpL1 
+2 0. # kpBWpL2 
+3 0. # kpBWpL3 
+###################################
+## INFORMATION FOR KPBZL
+###################################
+Block kpbzl
+1 0. # kpBZL1 
+2 0. # kpBZL2 
+3 0. # kpBZL3 
+###################################
+## INFORMATION FOR KPBZPL
+###################################
+Block kpbzpl 
+1 0. # kpBZpL1 
+2 0. # kpBZpL2 
+3 0. # kpBZpL3 
+###################################
+## INFORMATION FOR KPTHL
+###################################
+Block kpthl
+1 0. # kpTHL1 
+2 0. # kpTHL2 
+3 0.1001 # kpTHL3 
+###################################
+## INFORMATION FOR KPTHPL
+###################################
+Block kpthpl 
+1 0. # kpTHpL1 
+2 0. # kpTHpL2 
+3 0. # kpTHpL3 
+###################################
+## INFORMATION FOR KPTHL
+###################################
+Block kpthr
+1 0. # kpTHR1 
+2 0. # kpTHR2 
+3 0. # kpTHR3 
+###################################
+## INFORMATION FOR KPTHPL
+###################################
+Block kpthpr 
+1 0. # kpTHpR1 
+2 0. # kpTHpR2 
+3 0. # kpTHpR3 
+###################################
+## INFORMATION FOR KPTWL
+###################################
+Block kptwl
+1 0. # kpTWL1 
+2 0. # kpTWL2 
+3 0. # kpTWL3 
+###################################
+## INFORMATION FOR KPTWPL
+###################################
+Block kptwpl 
+1 0. # kpTWpL1 
+2 0. # kpTWpL2 
+3 0. # kpTWpL3 
+###################################
+## INFORMATION FOR KPTZL
+###################################
+Block kptzl
+1 0. # kpTZL1 
+2 0. # kpTZL2 
+3 0.1003 # kpTZL3 
+###################################
+## INFORMATION FOR KPTZPL
+###################################
+Block kptzpl 
+1 0. # kpTZpL1 
+2 0. # kpTZpL2 
+3 0.1002 # kpTZpL3 
+###################################
+## INFORMATION FOR NFACTORBP 
+###################################
+Block nfactorbp 
+1 1.00004 # xiZp 
+2 1.00005 # thZp 
+3 0. # xiWp 
+4 0. # thWp 
+5 0. # xiHp 
+###################################
+## INFORMATION FOR SMINPUTS
+###################################
+Block sminputs
+1 127.9 # aEWM1 
+2 0.0000116637 # Gf 
+3 0.1184 # aS 
+###################################
+## INFORMATION FOR LOOP
+###################################
+Block loop 
+1 91.188 # MU_R  
+###################################
+## INFORMATION FOR YUKAWA
+###################################
+Block yukawa
+5 4.18 # ymb
+6 172.76 # ymt
+# ymtau = 0
+###################################
+## INFORMATION FOR MASS
+###################################
+Block mass  
+5 4.18 # MB
+6 172.76 # MT  
+23 91.1876 # MZ   
+24 80.379 # MW   
+25 125.25 # MH  
+100006 1001. # MTP   
+100005 1002. # MBP   
+100023 801.003 # MZp  
+100024 802.002 # MWp  
+100025 803.001 # MHp  
+###################################
+## Dependent parameters, given by model restrictions.
+## Those values should be edited following the 
+## analytical expression. MG5 ignores those values 
+## but they are important for interfacing the output of MG5
+## to external program such as Pythia.
+1 0.  # d : 0.0
+2 0.  # u : 0.0 
+3 0.  # s : 0.0 
+4 0.  # c : 0.0 
+11 0.  # e- : 0.0 
+12 0.  # ve : 0.0 
+13 0.  # mu- : 0.0 
+14 0.  # vm : 0.0 
+# ta is massive
+16 0.  # vt : 0.0 
+21 0.  # g : 0.0 
+22 0.  # a : 0.0 
+9000002 91.1876  # ghz : MZ 
+9000003 80.379  # ghwp : MW 
+9000004 80.379  # ghwm : MW
+###################################
+## INFORMATION FOR DECAY
+###################################
+DECAY 6 1.50834  # WT 
+DECAY 23 2.4952  # WZ 
+DECAY 24 2.085  # WW 
+DECAY 25 0.00407  # WH 
+DECAY 100023 89.59  # WZp 
+DECAY 100024 101.27  # WWp 
+DECAY 100025 111.27  # WHp 
+DECAY 100006 3.59656  # WTP 
+DECAY 100005 5.  # WBP 
+## Dependent parameters, given by model restrictions.
+## Those values should be edited following the 
+## analytical expression. MG5 ignores those values 
+## but they are important for interfacing the output of MG5
+## to external program such as Pythia.
+DECAY 1 0. # d : 0.0
+DECAY 2 0. # u : 0.0 
+DECAY 3 0. # s : 0.0
+DECAY 4 0. # c : 0.0
+DECAY 5 0. # b : 0.0
+DECAY 11 0.  # e- : 0.0
+DECAY 12 0.  # ve : 0.0
+DECAY 13 0. # mu- : 0.0
+DECAY 14 0. # vm : 0.0
+DECAY 15 0. # ta- : 0.0
+DECAY 16 0. # vt : 0.0
+DECAY 21 0. # g : 0.0
+DECAY 22 0.  # a : 0.0
+DECAY 9000002 2.4952  # ghz : WZ
+DECAY 9000003 2.085  # ghwp : WW 
+DECAY 9000004 2.085  # ghwm : WW 
